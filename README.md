@@ -30,6 +30,7 @@ Sometimes it can be difficult to order a men's shirt online.  It would be helpf
 Write a program that will ask the user for the customer's chest size in inches.  The program will then display what shirt size should be ordered.
 
 Use the following table to determine the appropriate shirt size:
+<img width="565" alt="image" src="https://github.com/Ensign-College/CS105Lab3a/assets/130691832/be54a16c-34df-485f-b1a5-54db24de1d3b">
 
 
 In this lab, you will follow the step by step instructions below to write the program.
