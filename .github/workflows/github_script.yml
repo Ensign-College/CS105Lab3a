@@ -21,8 +21,8 @@ jobs:
       - name: Run Python script
         id: run-script
         run: |
-          wget https://raw.githubusercontent.com/Ensign-College/CS105_Tests/main/run.py
-          result=$(python run.py)
+          wget https://raw.githubusercontent.com/Ensign-College/CS105_Tests/main/Lab3aTest.py
+          result=$(python Lab3aTest.py)
           if [[ $result == *"Your code works"* ]]; then
               echo "::set-output name=script-output::Script run.py executed successfully with output: $result"
           else
