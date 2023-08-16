@@ -24,9 +24,9 @@ jobs:
           wget https://raw.githubusercontent.com/Ensign-College/CS105_Tests/main/Lab3aTest.py
           result=$(python Lab3aTest.py)
           if [[ $result == *"Your code works"* ]]; then
-              echo "::set-output name=script-output::Script run.py executed successfully with output: $result"
+              echo "::set-output name=script-output::Script Lab3aTest.py executed successfully with output: $result"
           else
-              echo "::set-output name=script-output::Script run.py failed with output: $result"
+              echo "::set-output name=script-output::Script Lab3aTest.py failed with output: $result"
           fi
 
       - name: Comment on PR
